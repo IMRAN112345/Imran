@@ -1,0 +1,419 @@
+@media screen and (max-width : 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden
+    }
+
+    .metacontainer {
+        height: 100%;
+        width: 100%;
+        background-image: url(bgimg.jpg);
+        background-image: content;
+    }
+
+    header {
+        padding-top: 0;
+        height: 16vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        padding-top: 2vh;
+        font-size: 2em;
+        letter-spacing: 0.8em;
+        padding-left: 9vw;
+    }
+
+    h4 {
+        font-size: 1.5em;
+        letter-spacing: 0.55em;
+        padding-left: 7.8vw;
+        padding-top: 0.5vh;
+        font-weight: 350;
+    }
+
+    .part1 {
+        height: 30vh;
+    }
+
+    .subpart {
+        width: 70%;
+    }
+
+    .subpart2 {
+        width: 23%;
+        height: 70vh;
+    }
+
+    .first {
+        /* margin-top: 0; */
+    }
+
+    .second {
+        padding-bottom: 0.5vh;
+    }
+
+    .box {
+
+        margin-left: 7px;
+        height: 3vh;
+        width: 1.5vw;
+
+
+    }
+
+    .first {
+        margin-top: 1vh;
+    }
+
+    .second {
+        margin-top: -3vh;
+    }
+
+    .third {
+        margin-top: -3vh;
+    }
+
+    .four {
+        margin-top: -3vh;
+    }
+
+
+    .content1 {
+        font-size: 0.75em;
+        height: 3vh;
+        width: 13vw;
+        margin-left: 10px;
+
+    }
+
+    .content2 {
+
+        font-size: 0.75em;
+        height: 3vh;
+        width: 16vw;
+        margin-left: 10px;
+
+
+    }
+
+    .content3 {
+        font-size: 0.75em;
+        height: 3vh;
+        width: 20vw;
+        margin-left: 10px;
+    }
+
+    .four {
+        width: 80%;
+
+    }
+
+    .content4 {
+        font-size: 0.75em;
+        height: 3vh;
+        width: 40vw;
+        margin-left: 10px;
+    }
+
+    h2 {
+        font-size: 2em;
+        color: white;
+    }
+
+    h5 {
+        color: white;
+        padding-left: 3px;
+        font-size: 0.55em;
+
+    }
+
+    .part2 {
+        margin-top: 50px;
+        height: 12vh;
+    }
+
+    .f2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    #qrimg {
+        padding-left: 30px;
+    }
+
+    .f3 p {
+        font-size: 0.7em;
+        padding-left: 18px;
+    }
+
+    #logo {
+        margin-left: 5px;
+        margin-top: 95px;
+        padding-left: 45px;
+    }
+
+    h6 {
+        font-size: 1em;
+        padding-left: 3vw;
+    }
+
+    .part3 {
+        height: 22.5vh;
+    }
+
+    .subpart_3 {
+        width: 30vw;
+        height: 6vh;
+    }
+
+    .subpart_3 h3 {
+        font-size: 25px;
+    }
+
+    .part3 p {
+        padding: 5px 30px;
+        font-size: 9px;
+        letter-spacing: 3px;
+    }
+
+    .part4 {
+        width: 196vw;
+    }
+
+    .spfirst {
+        height: 5vh;
+        padding-top: 0;
+    }
+
+    .content6 h3 {
+        font-size: 30px;
+    }
+
+    .subpart4_1 p {
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+
+    .subpart4_2 {
+        width: 55vw;
+    }
+
+    .address {
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    #add {
+        padding-left: 30px;
+    }
+
+    .extra {
+        padding-left: 70px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:478px) {
+    header {
+        height: 14vh;
+    }
+
+    h1 {
+        padding-top: 2vh;
+        font-size: 1.8em;
+        letter-spacing: 0.6em;
+        padding-left: 6vw;
+    }
+
+    h4 {
+        font-size: 1.3em;
+        letter-spacing: 0.4em;
+        padding-left: 4vw;
+        padding-top: 0.5vh;
+    }
+
+
+    h2 {
+        font-size: 1.3em;
+
+
+    }
+
+    h5 {
+        padding-left: 2px;
+        font-size: 0.40em;
+    }
+
+    .box {
+        height: 3vh;
+        width: 1.5vw;
+    }
+
+    .content1 {
+        font-size: 0.75em;
+        height: 3vh;
+        width: 13vw;
+        margin-left: 10px;
+
+    }
+
+    .first {
+        margin-top: 1vh;
+    }
+
+    .second {
+        margin-top: -3vh;
+    }
+
+    .third {
+        margin-top: -3vh;
+    }
+
+    .four {
+        margin-top: -3vh;
+    }
+
+    .content2 {
+        font-size: 0.75em;
+        height: 3vh;
+        width: 16vw;
+        margin-left: 10px;
+    }
+
+    .content3 {
+        font-size: 0.75em;
+        height: 3vh;
+        width: 20vw;
+        margin-left: 10px;
+    }
+
+    .content4 {
+        font-size: 0.75em;
+        height: 3vh;
+        width: 40vw;
+        margin-left: 10px;
+    }
+
+    .part2 h3 {
+        font-size: 25px;
+        padding-left: 25px;
+    }
+
+    .part2 p {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-left: 25px;
+    }
+
+    .f2 {
+        margin-top: 4vh;
+    }
+
+    h6 {
+        font-size: 1em;
+        padding-left: 7px
+    }
+
+    .part2 {
+        margin-top: 50px;
+        height: 12vh;
+    }
+
+    .f2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    #qrimg {
+        padding-left: 15px;
+    }
+
+    .f3 p {
+        font-size: 0.7em;
+        padding-left: 6px;
+    }
+
+    #logo {
+        margin-left: 5px;
+        margin-top: 95px;
+        padding-left: 20px;
+    }
+
+    h6 {
+        font-size: 0.7em;
+        padding-left: 3vw;
+    }
+
+    .part3 {
+        height: 22.6vh;
+    }
+
+    .subpart_3 {
+        width: 30vw;
+        height: 6vh;
+    }
+
+    .subpart_3 h3 {
+        font-size: 23px;
+    }
+
+    .part3 p {
+        padding: 5px 30px;
+        font-size: 9px;
+        letter-spacing: 3px;
+    }
+
+    .part4 {
+        width: 196vw;
+    }
+
+    .spfirst {
+        height: 5vh;
+        padding-top: 0;
+
+    }
+
+    .content6 h3 {
+        font-size: 20px;
+    }
+
+    .subpart4_1 p {
+        font-size: 9px;
+        letter-spacing: 2px
+    }
+
+    .subpart4_2 {
+        width: 55vw;
+    }
+
+    .address {
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    #add {
+        padding-left: 20px;
+        font-size: 8px
+    }
+
+    .extra {
+        padding-left: 40px;
+        font-size: 8px;
+    }
+
+
+
+}
